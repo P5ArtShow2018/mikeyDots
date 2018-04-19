@@ -38,3 +38,6 @@ function draw() {
   ellipse(250,250,100)
   //console.log(mouseX)
 }
+function windowResized() {
+  resizeCanvas(windowWidth,windowHeight);
+}
